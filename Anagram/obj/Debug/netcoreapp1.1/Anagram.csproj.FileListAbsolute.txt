@@ -1,0 +1,10 @@
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.deps.json
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.runtimeconfig.json
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.runtimeconfig.dev.json
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.csprojResolveAssemblyReference.cache
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.csproj.CoreCompileInputs.cache
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.AssemblyInfo.cs
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.dll
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.pdb
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.dll
+C:\Users\Ryan Lee\Desktop\Epicodus\C#\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.pdb

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 namespace Anagram.Models
 {
-  public class Anagram
+  public class AnagramProgram
   {
     private string _originalWord = "";
     private List<char> _originalWordChar = new List<char> {};
     private List<string> _potentialAnagrams = new List<string> {};
     private List<string> _returnAnagrams = new List<string> {};
 
-    public Anagram (string originalWord)
+    public AnagramProgram (string originalWord)
     {
       originalWord = originalWord.ToLower();
       _originalWord = originalWord;
@@ -109,81 +109,81 @@ namespace Anagram.Models
     }
   }
 
-  class Program
-  {
-    // static void Main()
-    // {
-    //   Console.WriteLine("Welcome to the Anagram Checker program.");
-    //   Flow();
-    // }
+//   class Program
+//   {
+//     // static void Main()
+//     // {
+//     //   Console.WriteLine("Welcome to the Anagram Checker program.");
+//     //   Flow();
+//     // }
 
-    static void Main()
-    {
-      Console.WriteLine("Welcome to the Anagram Checker program.");
+//     static void Main()
+//     {
+//       Console.WriteLine("Welcome to the Anagram Checker program.");
 
-      //Main word input
-      Console.WriteLine("Please enter a word.");
-      string input = Console.ReadLine();
-      while (input == null)
-      {
-        Console.WriteLine("Please enter a word.");
-        input = Console.ReadLine();
-      }
+//       //Main word input
+//       Console.WriteLine("Please enter a word.");
+//       string input = Console.ReadLine();
+//       while (input == null)
+//       {
+//         Console.WriteLine("Please enter a word.");
+//         input = Console.ReadLine();
+//       }
 
-      Anagram newAnagram = new Anagram(input);
+//       Anagram newAnagram = new Anagram(input);
 
-      //Potential anagram input
-      Console.WriteLine("Please enter a potential anagram word. Leave blank if you are done adding words.");
-      string anagramInput = Console.ReadLine();
-      while (anagramInput != "")
-      {
-        newAnagram.AddPotentialWord(anagramInput);
+//       //Potential anagram input
+//       Console.WriteLine("Please enter a potential anagram word. Leave blank if you are done adding words.");
+//       string anagramInput = Console.ReadLine();
+//       while (anagramInput != "")
+//       {
+//         newAnagram.AddPotentialWord(anagramInput);
 
-        Console.WriteLine("Please enter a potential anagram word. Leave blank if you are done adding words.");
-        anagramInput = Console.ReadLine();
-      }
+//         Console.WriteLine("Please enter a potential anagram word. Leave blank if you are done adding words.");
+//         anagramInput = Console.ReadLine();
+//       }
 
-      //Shows all anagrams
-      List<string> filterList = newAnagram.returnAnagramWords();
-      int number = 1;
-      Console.WriteLine("*These are the words that are anagrams to " + newAnagram.GetOriginalWord() + ".*");
-      foreach (string word in filterList)
-      {
-        Console.WriteLine(number + ". " + word);
-        number++;
-      }
-    }
+//       //Shows all anagrams
+//       List<string> filterList = newAnagram.returnAnagramWords();
+//       int number = 1;
+//       Console.WriteLine("*These are the words that are anagrams to " + newAnagram.GetOriginalWord() + ".*");
+//       foreach (string word in filterList)
+//       {
+//         Console.WriteLine(number + ". " + word);
+//         number++;
+//       }
+//     }
 
-    // public static void Flow()
-    // {
-    //   EnterWord();
-    //   AddPotentialWords();
-    // }
+//     // public static void Flow()
+//     // {
+//     //   EnterWord();
+//     //   AddPotentialWords();
+//     // }
 
-    // public static void EnterWord()
-    // {
-    //   Console.WriteLine("Please enter a word.");
-    //   string input = Console.ReadLine();
-    //   if (input != null)
-    //   {
-    //     Anagram newAnagram = new Anagram(input);
-    //   }
-    //   else
-    //   {
-    //     EnterWord();
-    //   }
-    // }
+//     // public static void EnterWord()
+//     // {
+//     //   Console.WriteLine("Please enter a word.");
+//     //   string input = Console.ReadLine();
+//     //   if (input != null)
+//     //   {
+//     //     Anagram newAnagram = new Anagram(input);
+//     //   }
+//     //   else
+//     //   {
+//     //     EnterWord();
+//     //   }
+//     // }
 
-    // public static void AddPotentialWords()
-    // {
-    //   Console.WriteLine("Please enter a potential anagram word. Leave blank if you are done adding words.");
-    //   string input = Console.ReadLine();
-    //   if (input != null)
-    //   {
-    //     newAnagram.AddPotentialWord(input);
-    //     AddPotentialWords();
-    //   }
-    //   Console.WriteLine(newAnagram.GetAllWords());
-    // }
-  }
+//     // public static void AddPotentialWords()
+//     // {
+//     //   Console.WriteLine("Please enter a potential anagram word. Leave blank if you are done adding words.");
+//     //   string input = Console.ReadLine();
+//     //   if (input != null)
+//     //   {
+//     //     newAnagram.AddPotentialWord(input);
+//     //     AddPotentialWords();
+//     //   }
+//     //   Console.WriteLine(newAnagram.GetAllWords());
+//     // }
+//   }
 }

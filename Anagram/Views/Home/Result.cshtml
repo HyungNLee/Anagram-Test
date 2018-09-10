@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <div class="container">
+      <h3>@Model.GetOriginalWord()</h3>
+      <ul>
+        @foreach(var word in @Model.returnAnagramWords())
+        {
+            <li><b>@word</b></li>
+        }
+      </ul>
+    </div>
+  </body>
+</html>
